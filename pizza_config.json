@@ -1,0 +1,29 @@
+{
+    "check_interval": 10,
+    "pizza_services": {
+        "dominos": {
+            "enabled": true,
+            "base_url": "http://localhost:5000/power/trackOrder",
+            "tracking_params": {
+                "store_id": "1234",
+                "order_key": "ABCD1234"
+            }
+        },
+        "pizza_hut": {
+            "enabled": false,
+            "base_url": "https://www.pizzahut.com/api/oh-yeah/track",
+            "tracking_params": {
+                "order_id": ""
+            }
+        },
+        "papa_johns": {
+            "enabled": false,
+            "base_url": "https://www.papajohns.com/order/trackorder",
+            "tracking_params": {
+                "order_number": ""
+            }
+        }
+    },
+    "notification_distance": 0.0,
+    "sound_file": "notification.wav"
+}
