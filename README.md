@@ -9,7 +9,6 @@ A Raspberry Pi terminal‑based pizza delivery tracker that simulates order sta
 - **Audio alert:** Python, pygame  
 
 ## Authors  
-Ellie Steubs
-Jesus Lozano-Vega
+Jesus Lozano-Vega and Ellie Steubs
 
 
